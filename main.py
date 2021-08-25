@@ -62,8 +62,8 @@ class Main(Login, Admin, User):
         capuser = self.username.get()
         capuser = capuser.upper()
         self.cur.execute("select account_type from users where username= ? ", (capuser,))
-        l = self.cur.fetchall()
-        self.account_type = l[0][0]
+        li = self.cur.fetchall()
+        self.account_type = li[0][0]
         self.buildmain()
 
     #  ADD WIDGETS TO TOP OF MAIN WINDOW
