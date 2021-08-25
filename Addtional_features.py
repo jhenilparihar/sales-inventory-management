@@ -68,11 +68,11 @@ class MyCombobox(tkinter.ttk.Combobox):
             self.position = len(self.get())
         _hits = []
         for element in self._completion_list:
-            if element.lower().startswith(self.get().lower()): # Match case insensitively
+            if element.lower().startswith(self.get().lower()):  # Match case insensitively
                 _hits.append(element)
         if _hits != self._hits:
             self._hit_index = 0
-            self._hits=_hits
+            self._hits = _hits
         if _hits == self._hits and self._hits:
             self._hit_index = (self._hit_index + delta) % len(self._hits)
         if self._hits:
