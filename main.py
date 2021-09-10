@@ -1,3 +1,7 @@
+"""
+Username : admin
+Password : admin
+"""
 import datetime
 from time import strftime
 from tkinter import *
