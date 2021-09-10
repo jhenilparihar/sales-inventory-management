@@ -10,7 +10,6 @@
 - Exceptional Handling
 - Object Oriented Programming
 
-
 ####	This application works on two levels of users, each category has different levels of rights to update the data & maintenance of masters like below.
 
 #### For Admin (Owner)
@@ -24,15 +23,19 @@
 *	Check Available Products
 
 
-# Requirements
+### Requirements
 ```
 Operating System -: Windows
 python -v 3
 ```
 
-# How to run it
+### How to run it
 ```
 ./venv/Scripts/activate
 python main.py
 ```
-
+_Important_*
+### For first time when running this program enter 
+    username : admin 
+    password : admin
+to login as admin and then you can add or delete or update admin/user in **profile** tab
