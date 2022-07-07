@@ -22,18 +22,19 @@
 *	Make Invoice
 *	Check Available Products
 
-
-### Requirements
-```
-Operating System -: Windows
-python -v 3
-```
-
 ### How to run it
 ```
 pip install -r requirements.txt
 python main.py
 ```
+
+### Requirements
+```
+Operating System -: Windows
+python -v 3
+>= 15 inch laptop/desktop
+```
+
 _Important_*
 ### For first time when running this program enter 
     username : admin 
