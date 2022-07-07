@@ -27,6 +27,11 @@
 pip install -r requirements.txt
 python main.py
 ```
+_Important_*
+### For first time when running this program enter 
+    username : admin 
+    password : admin
+to login as admin and then you can add or delete or update admin/user in **profile** tab
 
 ### Requirements
 ```
@@ -34,9 +39,3 @@ Operating System -: Windows
 python -v 3
 >= 15 inch laptop/desktop
 ```
-
-_Important_*
-### For first time when running this program enter 
-    username : admin 
-    password : admin
-to login as admin and then you can add or delete or update admin/user in **profile** tab
