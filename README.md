@@ -31,7 +31,7 @@ python -v 3
 
 ### How to run it
 ```
-./venv/Scripts/activate
+pip install -r requirements.txt
 python main.py
 ```
 _Important_*
