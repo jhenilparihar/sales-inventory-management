@@ -39,3 +39,5 @@ Operating System -: Windows
 python -v 3
 >= 15 inch laptop/desktop
 ```
+
+#### Give it a star
